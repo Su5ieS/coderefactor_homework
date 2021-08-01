@@ -1,12 +1,18 @@
+/* This * selector makes the style applies to to all elements of the page */
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* The body selector here applies the background color to the <body> of the site */
+
 body {
     background-color: #d9dcd6;
 }
+
+/* This applies the syle to the header element of the HTML. */
 
 header {
     padding: 20px;
@@ -15,10 +21,14 @@ header {
     color: #ffffff;
 }
 
+/* This stlyes the h1 element inside the header element. */ 
+
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
+
+/* Here is the syling for the navigation elements inside the header */
 
 header nav {
     padding-top: 15px;
@@ -28,23 +38,36 @@ header nav {
     font-size: 20px;
 }
 
+/* This is the syle that is applied to the unordered list in the navigation section of the header.
+ This will style without bullets or other item marker */
+
 header nav ul {
     list-style-type: none;
 }
+
+/* Here we are styling the list items in the unordered list, displaying them in line with the other 
+header item */
 
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Below we are creating the syle for our links inside the header without decration such as underline
+ and select color of text */ 
+
 a {
     color: #ffffff;
-    text-decoration: none;
+    text-decoration:none;
 }
+
+/* Unising the p selector, we are setting all paragraphs with a font size of 16 px */
 
 p {
     font-size: 16px;
 }
+
+/* The hero class selector here is to style the large picture under the header before the main content of the site */
 
 .hero {
     height: 800px;
@@ -55,21 +78,31 @@ p {
     background-position: center;
 }
 
+/* By using the float-left class selector here, we are positioning the images in the main body of the site with this class to the left 
+of the content section */
+
 .float-left {
     float: left;
     margin-right: 25px;
 }
+
+/* By using the float-right class selector here, we are positioning the images in the main body of the site with this class to the right 
+of the content section */
 
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* The main sector is styling the size and display of the items inside the <main> HTML tag */
+
 main {
     width: 75%;
-    display: inline-block;
+    display:inline-block;
     margin-left: 20px;
 }
+
+/* The aside sector is styling the size and display of the items inside the <aside> HTML tag */
 
 aside {
     margin-right: 20px;
@@ -82,21 +115,29 @@ aside {
     background-color: #2589bd;
 }
 
-.benefit {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
+/* using the aside and h3 selector together here allows us to style specific wording inside the h3 descendant of the aside tag */
 
 aside h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Here we are styling the div elements with a designated "benefit" class */
+
+.benefit {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* this styles the images contained in the div elements with a designated "benefit" class */
+
 .benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+
+/* This section styles the items with the class selector of "search-engine-optimization" */
 
 .search-engine-optimization {
     margin-bottom: 20px;
@@ -107,6 +148,21 @@ aside h3 {
     color: #ffffff;
 }
 
+/*  This section styles the IMAGES  within the class selector of "search-engine-optimization" */ 
+
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+/*  This section styles the h2 elements in items within the class selector of "search-engine-optimization" */
+
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*  This section styles the items with the class selector of "online-reputation-management" */
+
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -115,6 +171,21 @@ aside h3 {
     background-color: #0072bb;
     color: #ffffff;
 }
+
+/*  This section styles the IMAGES in the items within the class selector of "online-reputation-management" */
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+/*  This section styles the h2 elements in items within the class selector of "online-reputation-management" */
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*  This section styles the items with the class selector of "social-media-marketing" */
 
 .social-media-marketing {
     margin-bottom: 20px;
@@ -125,32 +196,20 @@ aside h3 {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
+/*  This section styles the IMAGES in the items within the class selector of "social-media-marketing" */
 
 .social-media-marketing img {
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+/*  This section styles the h2 elements in items within the class selector of "social-media-marketing" */
 
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/* here is the styling for the footer element */
 
 footer {
     padding: 30px;
@@ -158,6 +217,8 @@ footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
+
+/* this final section styles the h2 element within the footer */
 
 footer h2 {
     font-size: 20px;
