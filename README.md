@@ -13,7 +13,7 @@
 
 <br><br>
 
-## Special thanks to my teacher, TA and classmates. My study group 'fellowshipofcode' is especially deservine of thanks. 
+## Special thanks to my teacher, TA and classmates. My study group 'fellowshipofcode' is especially deserving of thanks. 
 
 <br><br>
 
